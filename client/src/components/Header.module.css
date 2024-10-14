@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .brandName {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .link {
+    text-decoration: none;
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .link:hover {
+    color: #000;
+  }
+  
+  .loginButton {
+    background-color: #00897B;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .loginButton:hover {
+    background-color: #00796B;
+  }
+  

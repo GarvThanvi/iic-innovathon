@@ -8,9 +8,6 @@ export default function Home() {
     <div className={styles.teamPage}>
       <div className={styles.teamSection}>
         <div className={styles.teamGrid}>
-          {/* Example team members - Replace with actual image URLs */}
-        
-          {/* Add more images as necessary */}
         </div>
         <div className={styles.teamInfo}>
           <h2>Our Expert Team</h2>
