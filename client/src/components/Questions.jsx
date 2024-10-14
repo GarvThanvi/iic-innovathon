@@ -1,12 +1,16 @@
 import React from "react";
 import styles from "./Questions.module.css";
-
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 export default function Questions() {
+  const navigate = useNavigate();
   return (
     <>
       <div className={styles.heroContainer}>
         <div className={styles.heroContent}>
-          <button className={styles.bigButton}>
+          <button
+            onClick={() => navigate("/questionnaire")}
+            className={styles.bigButton}
+          >
             Take the Mental Health Quiz
           </button>
 
@@ -22,7 +26,7 @@ export default function Questions() {
           </p>
         </div>
       </div>
-      <hr className={styles.horizontal}/>
+      <hr className={styles.horizontal} />
     </>
   );
 }
