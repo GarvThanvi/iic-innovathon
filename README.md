@@ -1,2 +1,2 @@
 # iic-innovathon
-garv chakka
+Healthify
