@@ -1,0 +1,55 @@
+.teamPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .teamSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    text-align: center;
+  }
+  
+  .teamGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .teamMember {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .teamInfo h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .teamInfo p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .appointmentButton {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .appointmentButton:hover {
+    background-color: darkgreen;
+  }
+  
