@@ -14,10 +14,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
+
 
 .navLinks{
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
 }

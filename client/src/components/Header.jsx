@@ -16,8 +16,8 @@ export default function Header() {
         <Link to={"/appointment"} className={styles.link}>
           Appointment
         </Link>
-        <Link to={"/activities"} className={styles.link}>
-          Activities
+        <Link to={"/questionnaire"} className={styles.link}>
+          Questionnaire
         </Link>
         <Link to={"/login"} className={styles.loginButton}>
           Log in/Sign Up
