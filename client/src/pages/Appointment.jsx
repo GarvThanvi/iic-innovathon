@@ -1,7 +1,11 @@
-import React from 'react'
+import React from 'react';
+import TherapistList from '../components/TherapistCard.jsx';
 
 export default function Appointment() {
   return (
-    <div>Appointment</div>
-  )
+    <div>
+      <h2>Appointment</h2>
+      <TherapistList />
+    </div>
+  );
 }
