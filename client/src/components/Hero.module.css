@@ -1,53 +1,86 @@
 .heroContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-    background-color: #202124;
-    color: white;
-    font-family: Arial, sans-serif;
-  }
-  
-  .heroContent {
-    max-width: 50%;
-  }
-  
-  .heroContent h1 {
-    font-size: 48px;
-    font-weight: 600;
-    margin-bottom: 20px;
-  }
-  
-  .heroContent p {
-    font-size: 18px;
-    margin-bottom: 30px;
-  }
-  
-  .heroButton {
-    padding: 15px 30px;
-    font-size: 18px;
-    background-color: #00a775;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .heroButton:hover {
-    background-color: #008a63;
-  }
-  
-  .heroImages {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  
-  .heroImage {
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    object-fit: cover;
-  }
-  
+  display: flex;
+  width: 100vw; /* Full width */
+  height: 100vh; /* Full height */
+  margin: 0;
+  padding: 0;
+  background-color: #202124;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.leftHalf, .rightHalf {
+  width: 50%; /* Divide into 2 halves */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftHalf {
+  flex-direction: column;
+  text-align: center; /* Center text and button */
+}
+
+.heroContent h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.heroContent p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.heroButton {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #00a775;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.heroButton:hover {
+  background-color: #008a63;
+}
+
+.rightHalf {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageWrapper {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.imageGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.heroImageLarge {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.heroImageSmall {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  object-fit: cover;
+}
