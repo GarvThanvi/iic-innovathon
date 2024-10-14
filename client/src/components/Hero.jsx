@@ -8,7 +8,7 @@ export default function Hero() {
         <div className={styles.heroContent}>
           <h1>Restore your mental health</h1>
           <p>
-            Join our public beta for early access to a healthier future. Your feedback shapes our platform.
+          Take charge of your mental well-being with personalized <br /> support and wellness exercises designed for students.
           </p>
           <button className={styles.heroButton}>Get started now</button>
         </div>
