@@ -1,86 +1,63 @@
-.heroContainer {
+.heroContainer{
   display: flex;
-  width: 100vw; /* Full width */
-  height: 100vh; /* Full height */
-  margin: 0;
-  padding: 0;
-  background-color: #202124;
-  color: white;
-  font-family: Arial, sans-serif;
-}
-
-.leftHalf, .rightHalf {
-  width: 50%; /* Divide into 2 halves */
-  display: flex;
-  justify-content: center;
+  margin: 30px;
+  justify-content: space-around;
   align-items: center;
+  height: 30vw;
+  font-size: x-large;
+
 }
 
-.leftHalf {
-  flex-direction: column;
-  text-align: center; /* Center text and button */
-}
-
-.heroContent h1 {
-  font-size: 48px;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-
-.heroContent p {
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-
-.heroButton {
-  padding: 15px 30px;
-  font-size: 18px;
-  background-color: #00a775;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.heroButton:hover {
-  background-color: #008a63;
-}
-
-.rightHalf {
-  position: relative;
+.rightHalf{
   display: flex;
-  justify-content: center;
-  align-items: center;
+ align-items: center;
+ justify-content: center;
 }
 
-.imageWrapper {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-}
-
-.imageGrid {
+.imageGrid{
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
 }
 
-.heroImageLarge {
+.heroImageLarge, .heroImageSmall, .heroImageSmall{
+  margin: 10px;
   width: 300px;
-  height: 300px;
-  border-radius: 20px;
-  object-fit: cover;
 }
 
-.heroImageSmall {
-  width: 200px;
-  height: 200px;
+.heroImageLarge{
   border-radius: 20px;
-  object-fit: cover;
+}
+
+.heroImageSmall{
+  margin: 4px;
+}
+
+.leftHalf{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroButton{
+  padding: 20px;
+  border-radius: 20px;
+  background-color: green;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+
+.heroButton:hover{
+  background-color: #00897B;
+}
+
+.heading{
+  font-size: 80px;
+  margin-bottom: 7px;
+}
+
+.horizontalRule{
+  margin-left: 80px;
+  margin-right: 80px;
 }

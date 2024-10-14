@@ -88,3 +88,8 @@
 .cardButton:hover {
     background-color: #218838; /* Darker green on hover */
 }
+
+.horizontal{
+    margin: 60px;
+}
+

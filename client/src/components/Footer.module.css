@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.leftPart{
+    width: 50%;
+}
+
+.rightPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navLinks{
+    display: flex;
+    flex-direction: column;
+}
