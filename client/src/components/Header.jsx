@@ -13,14 +13,14 @@ export default function Header() {
         <Link to={"/community"} className={styles.link}>
           Community
         </Link>
-        <Link to={"/library"} className={styles.link}>
-          Library
+        <Link to={"/appointment"} className={styles.link}>
+          Appointment
         </Link>
-        <Link to={"/help-support"} className={styles.link}>
-          Help & Support
+        <Link to={"/activities"} className={styles.link}>
+          Activities
         </Link>
         <Link to={"/login"} className={styles.loginButton}>
-          Log in
+          Log in/Sign Up
         </Link>
       </div>
     </nav>
