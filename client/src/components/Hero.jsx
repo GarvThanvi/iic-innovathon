@@ -1,7 +1,10 @@
 import React from "react";
 import styles from "./Hero.module.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Hero() {
+  const navigate = useNavigate();
+
   return (
     <>
       <div className={styles.heroContainer}>
@@ -14,7 +17,7 @@ export default function Hero() {
               Take charge of your mental well-being with personalized <br />{" "}
               support and wellness exercises designed for students.
             </p>
-            <button className={styles.heroButton}>Get started now</button>
+            <button onClick={() => navigate('/questionnaire')} className={styles.heroButton}>Get started now</button>
           </div>
         </div>
         <div className={styles.rightHalf}>

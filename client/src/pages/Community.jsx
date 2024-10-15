@@ -1,7 +1,9 @@
-import React from 'react'
-
+import React from "react";
+import Communities from "../components/Communities";
+import JournalPage from "../components/JournalPage";
 export default function Community() {
-  return (
-    <div>Community</div>
-  )
+  return <>
+  <Communities />
+  <JournalPage></JournalPage>
+  </> ;
 }

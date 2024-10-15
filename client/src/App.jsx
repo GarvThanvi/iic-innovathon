@@ -9,6 +9,7 @@ import Questionnaire from "./pages/Questionnaire";
 import Header from "./components/Header";
 import Depression from "./pages/Depression";
 import Adhd from "./pages/Adhd";
+import AnxietyComm from "./pages/AnxietyComm";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         ></Route>
         <Route path="/depression" element={<Depression />}></Route>
         <Route path="/adhd" element={<Adhd />}></Route>
+        <Route path='/anxiety' element={<AnxietyComm/>}></Route>
       </Routes>
     </BrowserRouter>
   );

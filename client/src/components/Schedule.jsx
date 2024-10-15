@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./Schedule.module.css";
+import { useNavigate } from "react-router-dom";
 export default function Schedule() {
+  const navigate = useNavigate();
   return (
     <>
       <div className={styles.teamPage}>
@@ -24,7 +26,10 @@ export default function Schedule() {
               business executives, accomplished tech entrepreneurs, and highly
               regarded healthcare professionals.
             </p>
-            <button className={styles.appointmentButton}>
+            <button
+              onClick={() => navigate("/appointment")}
+              className={styles.appointmentButton}
+            >
               Schedule an Appointment
             </button>
           </div>

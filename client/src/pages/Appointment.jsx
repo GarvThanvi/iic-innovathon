@@ -4,7 +4,9 @@ import TherapistList from '../components/TherapistCard.jsx';
 export default function Appointment() {
   return (
     <div>
-      <h2>Appointment</h2>
+      <center>
+        <h1>Therapist</h1>
+      </center>
       <TherapistList />
     </div>
   );
